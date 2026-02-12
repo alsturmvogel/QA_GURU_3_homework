@@ -17,7 +17,7 @@ def driver():
 
 
 def test_selenium_web(driver):
-    url = "https://www.google.com/?hl=ru"
+    url = "https://github.com/"
     driver.get(url)
-    assert driver.title == "Google"
+    assert driver.title == "GitHub · Change is constant. GitHub keeps you ahead. · GitHub"
     assert driver.current_url == url
